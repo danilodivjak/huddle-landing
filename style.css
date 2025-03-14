@@ -1,0 +1,29 @@
+@tailwind utilities;
+.hero {
+  background-color: hsl(193, 100%, 96%);
+}
+.hero .header .white-btn {
+  color: hsl(192, 100%, 9%);
+}
+.hero .hero-section .hero-left h1 {
+  color: hsl(192, 100%, 9%);
+}
+.hero .hero-section .hero-left .hero-left-btn button {
+  background-color: hsl(322, 100%, 66%);
+}
+
+.features {
+  background-color: #FEFEFF;
+}
+
+h2 {
+  color: hsl(192, 100%, 9%);
+}
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+}
+
+.pink-btn {
+  background-color: hsl(322, 100%, 66%);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <title>Danilo Divjak | Huddle landing page with alternating feature blocks</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="hero bg-[url('./images/bg-hero-desktop.svg')] bg-cover flex flex-col px-12 py-10 max-md:px-5">
+    <div class="header flex flex-row  justify-between">
+
+      <div class="header-logo max-md:w-2/5 flex items-center justify-start">
+        <img src="images/logo.svg">
+      </div>
+
+      <div class="white-btn py-2 px-10 bg-white rounded-3xl text-md font-bold max-md:px-8 max-md:text-md transition duration-300 hover:opacity-75">
+        <button>Try It Free</button>
+      </div>
+     
+    </div>
+    
+    <div class="hero-section flex flex-row max-md:flex-col py-16 gap-10 max-md:items-center">
+      <div class="hero-left flex w-1/2 max-md:w-4/5 justify-center items-start max-md:items-center flex-col">
+        <h1 class="font-bold text-4xl max-md:text-center max-md:text-3xl">Build The Community Your Fans Will Love</h1>
+  
+        <div class="hero-left-desc">
+          <p class="py-10 max-md:text-center">
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+            Create connections with your users as you engage in genuine discussion. 
+          </p>
+        </div>
+        
+        <div class="hero-left-btn transition duration-300 hover:opacity-75">
+          <button class="pink-btn text-white py-3 px-10 rounded-3xl">Get Started For Free</button>
+        </div>
+          
+      </div>
+      
+      <div class="hero-right w-1/2 max-md:w-4/5">
+        <img src="images/illustration-mockups.svg">
+      </div>
+    </div>
+  </div>
+
+  <div class="features flex flex-col py-40 gap-20 max-md:py-20 max-md:gap-10">
+    <div class="features-card flex flex-row max-md:flex-col-reverse max-md:items-center w-4/5 mx-auto bg-white rounded-lg shadow-lg">
+
+      <div class="features-text flex flex-col w-1/2 max-md:w-2/3 align-start max-md:items-center justify-center gap-3 mx-10 my-10">
+        <h2 class="font-bold text-2xl">Grow Together</h2>
+
+        <p class="max-md:text-center">
+          Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form. 
+        </p>
+      </div>
+
+      <div class="features-img w-1/2 max-md:w-2/3 flex justify-center mx-5 my-10">
+        <img src="images/illustration-grow-together.svg" class="w-2/3">
+      </div>
+    </div>
+
+    <div class="features-card flex flex-row-reverse max-md:flex-col-reverse max-md:items-center w-4/5 mx-auto bg-white rounded-lg shadow-xl">
+
+      <div class="features-text flex flex-col w-1/2 max-md:w-2/3 align-start max-md:items-center justify-center gap-3 mx-10 my-10">
+        <h2 class="font-bold text-2xl">Conversations</h2>
+
+        <p class="max-md:text-center">
+          You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+          have just-in-time loading for a more natural flow.
+        </p>
+      </div>
+
+      <div class="features-img w-1/2 flex justify-center mx-5 my-10">
+        <img src="images/illustration-flowing-conversation.svg" class="w-2/3">
+      </div>
+    </div>
+
+    <div class="features-card flex w-4/5 max-md:flex-col-reverse max-md:items-center mx-auto bg-white rounded-lg shadow-xl">
+
+      <div class="features-text flex flex-col w-1/2 max-md:w-2/3 align-start max-md:items-center justify-center gap-3 mx-10 my-10">
+        <h2 class="font-bold text-2xl"> Your Users</h2>
+
+        <p class="max-md:text-center">
+          It takes no time at all to integrate Huddle with your app's authentication solution. 
+          This means, once signed in to your app, your users can start chatting immediately.
+        </p>
+      </div>
+
+      <div class="features-img w-1/2 flex justify-center mx-5 my-10">
+        <img src="images/illustration-your-users.svg" class="w-2/3">
+      </div>
+    </div>
+  </div>
+
+  <div class="build-community shadow-lg w-1/2 max-md:w-4/5 mx-auto text-center flex flex-col items-center py-12 gap-5 rounded-lg relative top-20 bg-white">
+    <h1 class="text-3xl font-bold">Ready To Build Your Community?</h1>
+
+    <button class="pink-btn text-white py-3 px-16 rounded-3xl font-bold shadow-md transition duration-300 hover:opacity-75">Get Started For Free</button>
+  </div>
+
+  <div class="footer text-white px-20 py-20 gap-10 flex flex-col max-md:px-10">
+
+    <div class="footer-logo py-5">
+      <img src="images/logo copy.svg">
+    </div>
+
+    <div class="footer-content flex flex-row justify-between max-md:flex-col gap-10">
+      <div class="footer-socials flex flex-col w-2/4 justify-between gap-5 max-md:w-3/4">
+        <div class="location flex flex-row items-start justify-center gap-2">
+          <img src="images/icon-location.svg">
+          <p> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua
+          </p> 
+        </div>
+  
+        <div class="contact-phone flex flex-row gap-2">
+          <img src="images/icon-phone.svg">
+          <p>+1-543-123-4567</p>
+        </div>
+        
+        <div class="contact-email flex flex-row gap-2">
+          <img src="images/icon-email.svg">
+          <p>example@huddle.com</p>
+        </div>
+  
+      </div>
+     
+      
+      <div class="aboutUs">
+        <div class="about-us grid grid-cols-2 gap-5 max-md:grid-cols-1">
+          <p>About Us</p>
+          <p>What We Do</p>
+          <p>FAQ</p>
+          <p>Career</p>
+          <p>Blog</p>
+          <p>Contact Us</p>
+        </div>
+      </div>
+      
+      <div class="logos">
+        <div class="socials-logo flex flex-row items-center gap-2 max-md:justify-center max-md:gap-5">
+          <img src="images/insta.svg" class="w-7">
+          <img src="images/facebook.svg" class="w-7">
+          <img src="images/twitter.svg" class="w-7">
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="copyright flex justify-end max-md:justify-center">
+      &copy; Copyright 2018 Huddle. All rights reserved.
+    </div>
+  </div>
+
+</body>
+</html>
